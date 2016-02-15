@@ -14,7 +14,7 @@ describe('User', function () {
     var agent = 'Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)'
 
     it('has an agent', function () {
-      expect(User.ie).to.equal(agent)
+      expect(User.ie).to.equal(agent);
     })
   })
 
