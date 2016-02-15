@@ -1,0 +1,22 @@
+{
+  "name": "quote_media_sectors",
+  "version": "1.0.0",
+  "description": "Censible project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertChristopher/censible-quote-media-sectors.git"
+  },
+  "author": "Robert Christopher, Rashaun Stovall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobertChristopher/censible-quote-media-sectors/issues"
+  },
+  "homepage": "https://github.com/RobertChristopher/censible-quote-media-sectors#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0"
+  }
+}
