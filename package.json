@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/RobertChristopher/censible-quote-media-sectors#readme",
   "dependencies": {
+    "chai": "^3.5.0",
     "cheerio": "^0.20.0",
-    "gulp-mocha": "^2.2.0"
+    "gulp-mocha": "^2.2.0",
+    "superagent": "^1.7.2",
+    "superagent-proxy": "^1.0.0",
+    "superagent-retry": "^0.5.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
