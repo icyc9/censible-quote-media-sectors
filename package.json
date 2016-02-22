@@ -4,8 +4,7 @@
   "description": "Censible project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha $(find . -name '*spec.js' -not -path './node_modules/*')",
-    "start": "gulp watch"
+    "test": "./node_modules/.bin/mocha $(find . -name '*spec.js' -not -path './node_modules/*') -w"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/RobertChristopher/censible-quote-media-sectors#readme",
   "dependencies": {
+    "bluebird": "^3.3.1",
     "chai": "^3.5.0",
     "cheerio": "^0.20.0",
     "gulp-mocha": "^2.2.0",
